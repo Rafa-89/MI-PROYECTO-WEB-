@@ -1,0 +1,42 @@
+body {
+    background-image: url('../img/LOGO\ CAFE.JPG'); /* Ruta corregida */
+    background-position: center center;
+    background-size: cover; /* Cambiado a 'cover' */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0;
+}
+
+.login-container {
+    width: 100%; /* O un ancho específico si prefieres */
+    max-width: 400px; /* Establece un máximo para que no sea demasiado ancho en pantallas grandes */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Opcional, para darle un poco de estilo */
+    background: rgba(255, 255, 255, 0.5);  /* Fondo ligeramente transparente para que se vea la imagen detrás */
+    margin: 100px auto; /* Aumenta el margen superior para bajar el formulario */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+

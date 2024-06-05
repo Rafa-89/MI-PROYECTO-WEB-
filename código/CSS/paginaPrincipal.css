@@ -1,0 +1,156 @@
+body {
+    
+    
+    background-image: url('../img/colombia2.jpg'); /* Ruta corregida */
+    background-position: center center;
+    background-size: cover; /* Cambiado a 'cover' */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0;
+}
+
+/* Estilos generales para el header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    
+  }
+  
+  /* Estilos para el logo si es necesario */
+  .logo-container img {
+    height: 50px; /* Ajusta el tamaño como prefieras */
+  }
+  
+  /* Estilos para el menú */
+  #menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos para los elementos del menú */
+  #menu li {
+    margin: 0 10px; /* Ajusta el espacio entre los botones como prefieras */
+  }
+  
+  /* Estilos para los botones del menú */
+ 
+    
+    .boton {
+      border: none; 
+      background-color: rgb(47, 165, 18); 
+      width: 250px;
+      padding: 15px 32px; 
+      cursor: pointer; 
+      border-radius: 10px; 
+      font-size: 16px;
+      margin: 4px 2px;
+      color: #f1e6e6;
+       text-decoration: none;
+      
+ }
+
+.boton:hover {
+
+  background-color: rgb(144, 68, 6);
+
+}
+
+
+.carrito-boton {
+  
+ 
+  background-image: url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z' /%3E%3C/svg%3E"); /* Asegúrate de que la ruta a la imagen es correcta */
+  background-position: center; /* Centra la imagen en el botón */
+  background-size: contain; /* Asegura que toda la imagen se ajuste dentro del botón */
+  background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+  position: fixed; /* Posicionamiento fijo en la pantalla */
+    top: 10px;
+    color: black; /* Espacio desde el top de la pantalla */
+    right: 80px; /* Espacio desde el lado derecho de la pantalla */
+    width: 50px; /* Ancho del botón */
+    height: 50px; /* Altura del botón */
+    z-index: 100; /* Asegura que el botón esté sobre otros elementos */
+    border: none; /* Elimina el borde del botón */
+    cursor: pointer; /* Cambia el cursor a un puntero cuando se pasa por encima */
+    padding: 0; /* Elimina el relleno interior del botón */
+  }
+  
+
+
+
+
+
+    
+    
+    
+    
+  
+  
+  
+  
+  /* Estilos para el botón de login para que coincida con los demás */
+  .login-button {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z' /%3E%3C/svg%3E");
+    background-position: center;
+    background-size: contain; /* Ajusta esto para que el SVG se ajuste bien en el botón */
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 10px;
+    color: black;
+    right: 10px;
+    width: 50px; /* O el ancho que desees */
+    height: 50px; /* O la altura que desees */
+    z-index: 100;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+
+    
+  }
+
+  
+  
+  
+
+.login-button:hover {
+    background-color: rgba(243, 116, 5, 0.8); /* Proporciona un color de fondo translúcido al pasar el mouse */
+}
+
+
+/* Ajusta el estilo del contenedor del logo para que quede alineado con los botones del menú */
+.logo-container {
+    display: flex; /* Usa flexbox para alinear el contenido */
+    align-items: center; /* Centra verticalmente el logo dentro del contenedor */
+    justify-content: flex-start; /* Alinea el logo a la izquierda del contenedor */
+    padding: 0 15px; /* Añade un poco de padding si es necesario */
+}
+
+/* Ajusta el estilo del logo */
+.logo-container img {
+    height: 50px; /* Ajusta esto según el tamaño que desees para tu logo */
+    width: auto; /* Mantiene la proporción del logo */
+}
+
+/* Asegúrate de que el botón de login no sea más grande que los otros elementos del menú */
+.login-button {
+    height: 50px; /* Ajusta la altura para que coincida con el logo si es necesario */
+    /* Otras propiedades del .login-button */
+}
+
+/* Ajusta el estilo de los elementos del menú para que estén alineados con el logo */
+#menu li .boton {
+    /* Tus propiedades actuales */
+    line-height: 50px; /* Ajusta esto para alinear verticalmente el texto del botón */
+}
+
+
+
+

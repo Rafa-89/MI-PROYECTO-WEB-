@@ -1,0 +1,39 @@
+/* Estilos para centrar el encabezado */
+.center-heading {
+    text-align: center; /* Centra horizontalmente el texto */
+    margin-top: 50px; /* Espacio superior para separarlo del borde superior */
+}
+
+
+
+/* Estilos específicos para la sección "Nosotros" */
+
+.about {
+    display: flex;
+    flex-direction: column; /* Apila los elementos verticalmente */
+    align-items: center; /* Centra los elementos horizontalmente */
+    margin-bottom: 50px;
+    text-align: center; /* Centra el texto */
+}
+
+.about-content {
+    max-width: 600px; /* Limita el ancho del contenido */
+   
+    color: brown;
+}
+
+.about-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-content p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
