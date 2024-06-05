@@ -2,11 +2,9 @@
 TIENDA ONLINE DE CAFÉ ESPECIALIDAD 
 
 
-El Cafecito
-Descripción
-El Cafecito es una tienda online dedicada a la venta de café de especialidad. El proyecto está diseñado para ofrecer una experiencia de usuario amigable y atractiva, permitiendo a los clientes explorar y comprar diversos tipos de café.
+El Cafecito es una tienda online dedicada a la venta de café de especialidad. El proyecto está diseñado para ofrecer una experiencia de usuario sencilla y atractiva, permitiendo a los usuarios explorar y comprar diversos tipos de café.
 
-Funcionalidades
+Funcionalidades:
 Catálogo de productos: Navegación y búsqueda de diferentes tipos de café.
 Detalle de producto: Información detallada sobre cada producto, incluyendo precio, descripción y características.
 Carrito de compras: Añadir productos al carrito y gestionar la cantidad.
